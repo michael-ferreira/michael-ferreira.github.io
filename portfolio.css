@@ -1,0 +1,30 @@
+body {
+	background-image: url("fondo.jpe"); 
+	margin-top: 150pt;
+}
+
+h1{
+ margin-bottom: 100pt; 
+ color: rgb(1,70,99);
+}
+
+
+.dropdown-menu{
+	background-color: transparent;
+	color: white;
+	font-size: 2em;
+}
+
+
+p{
+	font-size: 2em;
+}
+
+.esquina{
+	margin-top: 100pt;
+}
+
+form{
+	
+	font-size: 0.8em;
+}
