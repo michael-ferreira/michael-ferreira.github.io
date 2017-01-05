@@ -48,7 +48,7 @@
         <div class="container-fluid"> 
           <div class="row" >
             <div class="col-xs-12 agrandar">
-              <img class="img-responsive portada" src="imagenes/fondo.jpeg" alt="" >   
+              <img class="img-responsive portada" src="imagenes/portada.jpg" alt="" >   
             </div>
           </div>
         </div>    
@@ -165,6 +165,12 @@
             </div>
           </div>
         </footer>
+        <script>
+                  $('.nav a').on('click', function(){
+            $('.btn-navbar').click(); //bootstrap 2.x
+            $('.navbar-toggle').click() //bootstrap 3.x by Richard
+        });
+      </script>
     </div>
   </body> 
 </html>

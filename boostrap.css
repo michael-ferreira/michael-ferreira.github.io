@@ -1,15 +1,12 @@
 
-body{
-    margin-top: 30pt;
-}
 .navbar-fixed-top{
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.56);
  
-}*/
+}
 
 .navbar{
     
-   border-bottom: solid #022e3d ;
+   border-bottom: 0;
     font-size: 18px;
 }
 
@@ -40,7 +37,7 @@ body{
 
 .agrandar{
     padding: 0;
-}
+ }
 .cambiar:hover{
     background:#127A97;
      -webkit-transform: scale(0.8);
@@ -79,9 +76,11 @@ body{
 	
 
 .portada {
-    display: block;
+    /*display: block;
     width: 100%;
-    max-height: 490px;
+    max-height: 490px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
