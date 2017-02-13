@@ -1,7 +1,11 @@
 
 .navbar-fixed-top{
-    background-color:rgba(255, 255, 255, 0.56);
- 
+   /* background-color:rgba(255, 255, 255, 0.56);*/
+    background-color: rgba(245, 245, 245, 0.47); ;
+   -webkit-box-shadow: 0px 0.5px 5px 0px rgba(168,153,168,1);
+-moz-box-shadow: 0px 0.5px 5px 0px rgba(168,153,168,1);
+box-shadow: 0px 0.5px 5px 0px rgba(168,153,168,1);
+border-bottom: 0px;
 }
 
 .navbar{
@@ -17,12 +21,18 @@
 .navbar-brand{
     padding-top: 1pt;
     padding-bottom: 60px;
-    margin-right: 90pt;
-}
+ }
 
 
 .logo{
-    width:84px ;
+    width:75px ;
+    margin-top: -6px;
+}
+
+.navbar-text{
+    color: white;
+    overflow: visible!important;
+    color: white;
 }
 
 .menu{
@@ -51,6 +61,14 @@
     padding-top:9rem ;
     padding-bottom: 9rem;
     font-size: 16px;
+    background-image: url("imagenes/fondo2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.transparente{
+    background-color: rgba(0, 0, 0, 0.36);
 }
 
 .quienes{
@@ -71,7 +89,7 @@
 
 .list-inline{
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
 }
 	
 
@@ -81,12 +99,16 @@
     max-height: 490px;*/
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.13);
 }
 
 
 
 .seguros{
     width: 40pt;
+
 }
 
 .info {
@@ -94,6 +116,10 @@
     font-size: 12px;
     height: 160pt;
     font-family: 'Open Sans', sans-serif;
+      border:1px solid #dedede;
+    -webkit-box-shadow:0 3px 16px 0 rgba(168,168,168,0.5));
+    -moz-box-shadow: 0 3px 16px 0 rgba(168,168,168,0.5);
+    box-shadow:0 3px 16px 0 rgba(168,168,168,0.5);
   }
 
 .thumbnail>h2{
@@ -107,16 +133,18 @@
 
 
 .gris{
-    background-color: #f5f5f5;
+    background-color: white;
     padding-top: 30pt;
     padding-bottom:30pt;
 }
 
 .fondo{
-    background-color: #005b78;
-    color: white;
+    background-color:#fbfbfb;
+    color: #127A97;
     padding-bottom: 80px;
     padding-top: 45px;
+     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul{list-style-type: none;}
@@ -147,4 +175,11 @@ h1,h2,h3,p,.letra{
     text-align: l;
 }
 
+.recuadro{
+     border:1px solid #dedede;
+    -webkit-box-shadow:0 3px 16px 0 rgba(168,168,168,0.5));
+    -moz-box-shadow: 0 3px 16px 0 rgba(168,168,168,0.5);
+    box-shadow:0 3px 16px 0 rgba(168,168,168,0.5);
+  
+}
 
