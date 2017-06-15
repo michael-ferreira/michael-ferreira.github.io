@@ -21,11 +21,11 @@
       <div class="navbar-fixed" >
         <nav class="white">
         <div class="nav-wrapper">
-           <a href="index.html" class="brand-logo"><i class="material-icons blue-text text- accent-1"><span class="logo">room</span></i><span class="blue-text text- accent-1 marca" >punto web</span></a>
+           <a href="puntoweb.html" class="brand-logo"><i class="material-icons blue-text text- accent-1"><span class="logo">room</span></i><span class="blue-text text- accent-1 marca" >punto web</span></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"><span class="blue-text text-darken-2">menu</span></i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="index.html"><span class="blue-text text-darken-2">INICIO</span></a></li>
-            <li><a href="index.html#nosotros"><span class="blue-text text-darken-2">SOBRE NOSOTROS</span></a></li>
+            <li><a href="puntoweb.html"><span class="blue-text text-darken-2">INICIO</span></a></li>
+            <li><a href="puntoweb.html#nosotros"><span class="blue-text text-darken-2">SOBRE NOSOTROS</span></a></li>
             <li><a href="portfolio.html"><span class="blue-text text-darken-2">PROYECTOS</span></a></li>
             <li><a  href="puntowebcontacto.html"><span class="amber-text accent-4 borde">CONTÁCTANOS</span></a></li>
           </ul
@@ -39,16 +39,15 @@
        
             <li><a href="portfolio.html"><i class="small material-icons blue-text text-darken-2">perm_media</i><span class="blue-text text-darken-2">PROYECTOS</span></a></li>
             <li><a href="puntowebcontacto.html"><i class="small material-icons  amber-text accent-4">email</i><span class="orange-text darken-4 BORDE">CONTÁCTANOS</span></a></li>
-        </ul>>
-      </div>
-      <div class="section espacio">
+        </ul>
+      <div class="section espacio" >
         <div class="row">
           <div class="col s12">
             <h5>PORTFOLIO</h5>
           </div>
           <div class="col s12 m6  view view-first  grid cs-style-1">
             <a href="portfolio-academia.html">
-              <img class=" z-depth-5 center responsive-img"  src="imagenes2/academia.png" alt="sitio web responsive">
+              <img class=" z-depth-5 center responsive-img"  src="imagenes2/academia2.png" alt="sitio web responsive">
               <div class="mask">
                 <h2>Academia Uruguaya de Historia Maritima y Fluvial</h2>
                 <p class="info">ver</p>
@@ -57,7 +56,7 @@
           </div>
          <div class="col s12 m6 view view-first grid cs-style-1">
            <a href="portfolio-lourido.html">
-              <img  class=" z-depth-5 center responsive-img " src="imagenes2/lourido.png" alt="sitio web responsove">
+              <img  class=" z-depth-5 center responsive-img " src="imagenes2/lourido2.png" alt="sitio web responsove">
               <div class="mask">
                 <h2>Lourido Seguros</h2>
                 <p class="info">ver</p>
@@ -99,12 +98,31 @@
           </div>
         </footer>
       
+      
 
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
 
 
      <script>
-       
-     </script>
+        $( document ).ready(function(){
+           $(".button-collapse").sideNav();
+           $('.parallax').parallax();
+           $('.slider').slider();
+      
+           $('.materialboxed').materialbox();
+           $('.scrollspy').scrollSpy();
+
+              $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+           
+
+         });
+        </script>
       </body>
     </html>
