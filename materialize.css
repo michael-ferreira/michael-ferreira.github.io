@@ -12,9 +12,9 @@
 	padding-left: 1rem;
 }
 
-.alto{
+/*.alto{
 	margin-top: 5em;
-}
+}*/
 
 .menosalto{
 	margin-top: 3em;
@@ -182,13 +182,16 @@ p{
 .view-first:hover a.info {
   transition-delay: 0.2s;
 }
-
+/*
 .mensaje{
 	background-color: rgba(0, 0, 0, 0.55);
-	margin-top: 32%;
-}
+	
+}*/
 
-.mensajedos{
-	background-color: rgba(0, 0, 0, 0.76);
-	margin-top: -2%;
+
+@media only screen and (max-width:600px) {
+    .respon {
+        text-align: center;
+    }
+
 }
