@@ -136,29 +136,17 @@ Los diseños se adaptan totalmente  a la pantalla de todos los dispositivos, as�
         </div>
         <div class="section contacto">
         <div class="container">
-          <div class="row">
-            <div class="col s12 m12">
-               <form action="enviar2.php" method="POST">
-                <div class="input-field col s6">
-                  <input id="fromName" type="text" class="validate">
-                  <label class="active" for="fromName">Nombre</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="fromEmail" type="email" class="validate">
-                   <label for="fromEmail" data-error="email incorrecto" data-success="perfecto">Email</label>
-                </div>             
-                <div class="input-field col s12">
-                  <textarea id="fromMessage" class="materialize-textarea"></textarea>
-                  <label for="fromMessage">¿Como le podemos ayudar?</label>
-                </div>             
-                <div class="col s12">
-                  <button class="btn waves-effect waves-light right  amber accent-4" type="submit" name="action">enviar
-                    <i class="material-icons right">send</i>
-                  </button>   
-                </div>      
-              </form>
-            </div>  
-          </div>
+         
+<div class="row formulario">
+				      	<div class="col-xs-12 col-sm-6">
+				      	 	<p class="lead">Ingrese los siguientes campos:</p>
+				       		<form  action="enviar.php" method="POST">
+								<br><input name="fromEmail" type="email" placeholder="email" class="form-control"><br>
+								<input name="fromName" type="text" placeholder="nombre" class="form-control"><br>
+								<textarea name="fromMessage" rows="4" placeholder="mensaje" class="form-control"></textarea><br>
+								<input type="submit" value="Enviar" class="boton btn btn-default">
+							</form>
+				      	</div>
         </div>
       </div>    
         <footer class="page-footer  cyan darken-4">
