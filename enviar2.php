@@ -5,5 +5,5 @@
 	$fromMessage = $_POST["fromMessage"];
 	$contenido = "fromEmail: " . $fromEmail . "\nfromName: " . $fromName . "\nfromMessage: " . $fromMessage;
 	mail($destino,"Contacto", $contenido);
-	header("Location:http://michael-ferreira.github.io/indexcontacto.html");
+	header("Location:http://michael-ferreira.github.io");
 ?>
